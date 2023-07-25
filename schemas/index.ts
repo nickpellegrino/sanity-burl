@@ -1,6 +1,7 @@
 import blockContent from './blockContent'
-import category from './category'
-import post from './post'
-import author from './author'
+import deals from './deals'
+import heroes from './heroes'
+import tiles from './tiles'
+import inspiration from './inspiration'
 
-export const schemaTypes = [post, author, category, blockContent]
+export const schemaTypes = [deals, heroes, tiles, inspiration, blockContent]
